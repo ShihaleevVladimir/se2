@@ -3,36 +3,36 @@
 
 using namespace std;
 
-int main() 
+int main()
 {
-    //ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЄГ«Г Г±Г±Г  ГЄГ®Г¬ГЇГ«ГҐГЄГ±Г­Г»Гµ Г·ГЁГ±ГҐГ«
+//ГІГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ ГЄГ«Г Г±Г±Г  ГЄГ®Г¬ГЇГ«ГҐГЄГ±Г­Г»Гµ Г·ГЁГ±ГҐГ«
 
-    Complex A, B(-4), C(23.0, 45.9);
+Complex A, B(-4), C(23.0, 45.9);
 
-    cout << "A: " << A << ", B: " << B << ", C: " << C << endl;
+cout << "A: " << A << ", B: " << B << ", C: " << C << endl;
 
-    A = B + C;
-    cout << "A = B + C, A = " << A << endl;
+A = B + C;
+cout << "A = B + C, A = " << A << endl;
 
-    Complex M = B - C;
+Complex M = B - C;
 
-    cout << "M = B - C, M = " << M << endl;
+cout << "M = B - C, M = " << M << endl;
 
-    Complex N = M * A;
+Complex N = M * A;
 
-    cout << "N = M * A, N = " << N << endl;
+cout << "N = M * A, N = " << N << endl;
 
-    Complex O = M / 4.45;
+Complex O = M / 4.45;
 
-    cout << "O = M / 4.45, O = " << O << endl;
+cout << "O = M / 4.45, O = " << O << endl;
 
-    Complex D;
+Complex D;
 
-    cout << "Enter complex number D = "; cin >> D;
+cout << "Enter complex number D = "; cin >> D;
 
-    A += C + D;
+A += C + D;
 
-    cout << "D = " << D << "\nA = " << A << endl;
+cout << "D = " << D << "\nA = " << A << endl;
 
-    return 0;
+return 0;
 }
