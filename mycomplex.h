@@ -42,4 +42,4 @@ Complex& operator*= (const double&);
 Complex& operator /=(const double&);
 Complex& operator = (const double&);
 };
-#endif
+#endif 
