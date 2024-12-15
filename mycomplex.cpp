@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Complex::Complex (double aRe, double   aIm)
+Complex::Complex (double aRval, double   aIm)
 {   
 Re = aRe;   
 Im = aIm; 
@@ -22,9 +22,9 @@ Re = 0.0;
 Im = 0.0;
 }
 
-void Complex::Set (double aRe, double aIm) 
+void Complex::Set (double aRval, double aIm) 
 {   
-Re = aRe;
+Re = aRval;
 Im = aIm;
 }
 
